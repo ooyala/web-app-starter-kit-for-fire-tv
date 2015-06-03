@@ -429,7 +429,6 @@
         };
 
         this.openSubCategory = function(data) {
-            this.succeededSubCategoryIndex = this.oneDView.currSelection;
             if (this.subCategoryView) {
                 if (!this.subCategoryStack) {
                     this.subCategoryStack = [];
@@ -439,11 +438,7 @@
             }
             var subCategoryView = this.subCategoryView = new SubCategoryView();
             this.subCategoryView.data = data.contents;
-            this.oneDView.fadeOut();
-            this.leftNavView.fadeOut();
             subCategoryView.render(this.$appContainer, data.title, data.contents, this.settingsParams.displayButtons);
-            subCategoryView.hide();
-            subCategoryView.fadeIn();
             this.selectView(this.subCategoryView);
 
            /** 
@@ -482,6 +477,14 @@
                 }
 
             }, this);
+
+           /**
+            * Hide spinner when subCategories are loaded
+            */
+            subCategoryView.on('loadComplete', function() {
+                subCategoryView.fadeIn();
+                this.loadingSpinner.hide.spinner();
+            }, this);
         }.bind(this);
         
        /**
@@ -490,6 +493,15 @@
         * @param {Number} index the index of the category
         */
         this.transitionToSubCategory = function(data, index) {
+            this.oneDView.fadeOut();
+            this.leftNavView.fadeOut();
+
+            if (this.subCategoryView) {
+                this.subCategoryView.hide();
+            }
+            //show the spinner
+            this.loadingSpinner.show.spinner();
+
             app.data.setCurrentSubCategory(data[index]);
             app.data.getSubCategoryData(this.openSubCategory);
         }.bind(this);
@@ -826,7 +838,7 @@
         this.playerErrorOkCallback = function() {
             //go back to one D view
             this.exitPlayerView();
-            if (this.subCategoryStack && this.subCategoryStack.length > 0) {
+            if (this.subCategoryView) {
                 this.appViewBeforeError = this.subCategoryView;
                 this.transitionFromErrorDialog();
                 this.transitionFromPlayerToSubCategory();
@@ -865,8 +877,8 @@
         //category error callback function for the OK button
         this.categoryErrorOkCallback = function() {
             this.transitionFromErrorDialog();
-            //if there's an error when loaing the first category, exit the app
-            if (!this.succeededCategoryIndex) {
+            //if there's an error when loading the first category, exit the app
+            if (typeof this.succeededCategoryIndex !== 'number') {
                 this.exitAppCallback();
             }
             //go back to previous category
@@ -899,14 +911,26 @@
         this.subCategoryErrorOkCallback = function() {
             //go back to previous sub category
             this.transitionFromErrorDialog();
-            this.data.setCurrentSubCategory(this.succeededSubCategoryIndex);
-            this.data.getSubCategoryData(this.openSubCategory);
+            if (this.subCategoryView) {
+                this.subCategoryView.show();
+            } else {
+                this.oneDView.fadeIn();
+                this.leftNavView.fadeIn();
+            }
         }.bind(this);
 
         //subcategory error call back function for the retry button
         this.subCategoryErrorRetryCallback = function() {
             //retry updating subcategory
             this.transitionFromErrorDialog();
+            this.oneDView.fadeOut();
+            this.leftNavView.fadeOut();
+
+            if (this.subCategoryView) {
+                this.subCategoryView.hide();
+            }
+            //show the spinner
+            this.loadingSpinner.show.spinner();
             this.data.getSubCategoryData(this.openSubCategory);
         }.bind(this);
 
