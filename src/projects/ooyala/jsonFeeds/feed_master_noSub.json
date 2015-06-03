@@ -1,0 +1,24 @@
+{
+"feeds": [
+{
+  "category": "Category 1",
+  "categoryFeed": "assets/feed_single.json"
+},
+{
+   "category": "Category 2",
+   "categoryFeed": "assets/feed_single.json"
+},
+{
+    "category": "Category 3",
+    "categoryFeed": "assets/feed_single.json"
+},
+{
+    "category": "Category 4",
+    "categoryFeed": "assets/feed_single.json"
+},
+{
+    "category": "Category 5",
+    "categoryFeed": "assets/feed_single.json"
+}
+]
+}

@@ -1,0 +1,157 @@
+{
+"feeds": [
+{
+  "category": "Series",
+  "subcategory" : [
+   {
+     "title" : "Show One",
+     "imgURL": "assets/l1.jpg",
+     "description": "Nibh. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum.",
+     "subcategory" :  [
+   {
+     "title" : "Season 1",
+     "description": "Sed eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l11.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 2",
+     "description": "Lacinia vitae, sodales at, velit. pellentesque ultricies dignissim lacus. aliquam rutrum lorem ac risus. morbi metus. vivamus euismod urna. nullam lobortis quam a felis ullamcorper viverra. maecenas iaculis aliquet diam. sed diam lorem, auctor quis, tristique ac",
+     "imgURL": "assets/l2.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 3",
+     "description": "Sed eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 4",
+     "description": "En Lacinia vitae, sodales at, velit. pellentesque ultricies dignissim lacus. aliquam rutrum lorem ac risus. morbi metus. vivamus euismod urna. nullam lobortis quam a felis ullamcorper viverra. maecenas iaculis aliquet diam. sed diam lorem, auctor quis, tristique ac,",
+     "imgURL": "assets/l4.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 5",
+     "description": "Nibh. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum.",
+     "imgURL": "assets/l5.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 6",
+     "description": "Aled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l8.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 7",
+     "description": "Vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum.",
+     "imgURL": "assets/l9.jpg",
+     "feedURL" : "assets/feed_season.json"
+   }
+  ]},
+   {
+     "title" : "Nonummy",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   },
+   {
+     "title" : "Lacusled",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   },
+   {
+     "title" : "Fermentum",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   },
+   {
+     "title" : "Eget Lacus",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   }
+  ]
+},
+{
+  "category": "Weather",
+  "subcategory" : [
+   {
+     "title" : "Show One",
+     "imgURL": "assets/l1.jpg",
+     "description": "Nibh. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum.",
+     "subcategory" :  [
+   {
+     "title" : "Season 1",
+     "description": "Sed eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l11.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 2",
+     "description": "Lacinia vitae, sodales at, velit. pellentesque ultricies dignissim lacus. aliquam rutrum lorem ac risus. morbi metus. vivamus euismod urna. nullam lobortis quam a felis ullamcorper viverra. maecenas iaculis aliquet diam. sed diam lorem, auctor quis, tristique ac",
+     "imgURL": "assets/l2.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 3",
+     "description": "Sed eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 4",
+     "description": "En Lacinia vitae, sodales at, velit. pellentesque ultricies dignissim lacus. aliquam rutrum lorem ac risus. morbi metus. vivamus euismod urna. nullam lobortis quam a felis ullamcorper viverra. maecenas iaculis aliquet diam. sed diam lorem, auctor quis, tristique ac,",
+     "imgURL": "assets/l4.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 5",
+     "description": "Nibh. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum.",
+     "imgURL": "assets/l5.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 6",
+     "description": "Aled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l8.jpg",
+     "feedURL" : "assets/feed_season.json"
+   },
+   {
+     "title" : "Season 7",
+     "description": "Vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum. phasellus nulla. integer vulputate, risus a ultricies, enim mi tempor lorem, eget mollis lectus pede et risus. quisque libero lacus, varius et, euismod et, commodo at, libero. morbi accumsan laoreet ipsum.",
+     "imgURL": "assets/l9.jpg",
+     "feedURL" : "assets/feed_season.json"
+   }
+  ]},
+   {
+     "title" : "Nonummy",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   },
+   {
+     "title" : "Lacusled",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   },
+   {
+     "title" : "Fermentum",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   },
+   {
+     "title" : "Eget Lacus",
+     "description": "Quisque libero lacusled non du eget lacus. mauris non dui nec urna suscipit nonummy. fusce fermentum fermentum arcu. vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+     "imgURL": "assets/l3.jpg",
+     "feedURL" : "assets/feed_single.json"
+   }
+  ]
+}
+]}
